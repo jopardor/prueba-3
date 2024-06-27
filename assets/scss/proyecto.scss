@@ -1,0 +1,515 @@
+@import "../bootstrap-5.3.3/scss/bootstrap.scss";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* GENERALES*********** */
+.fontfam{
+    font-family: "Red Hat Display", sans-serif;
+}
+
+
+
+/* HEADER************* */
+
+
+
+
+
+/* Estilo para el fondo negro y letras blancas */
+.headercolor {
+    background-color: black;
+}
+
+.headercolor .navbar-nav .nav-link,
+.headercolor .navbar-brand {
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* Cambiar color de las letras al pasar el mouse */
+.headercolor .navbar-nav .nav-link:hover,
+.headercolor .navbar-brand:hover {
+    color: #dddddd;
+    font-family: "Red Hat Display", sans-serif;
+
+}
+
+/* Estilo para el ícono del toggler */
+.headercolor .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%288, 8, 8, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.headercolor .navbar-toggler {
+    border-color: white;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.headercolor .navbar-nav .current-menu-item .nav-link {
+    color: gray;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *******************+++++++++++++++++++-INDEX-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* BANNER********** */
+
+.titulo-h1{
+    font-weight: 800;
+    font-size: 65px;
+    color: rgb(84, 94, 99);
+    
+}
+
+.h2-subtitulo{
+    font-weight: 400;
+    font-size: 23px;
+    color: rgb(84, 94, 99);
+    
+    
+
+}
+
+.index-banner2{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.banner {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .banner img {
+    position: absolute;
+    top: 0;
+    left: 0; /* en verdad es cero */
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    
+    z-index: 2;
+  }
+
+
+
+/* CONTENEDOR-1-********** */
+
+.contenedor-1 h2{
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+/* CONTENEDOR-2-********** */
+
+.img-contenedor2{
+    width: 300px;
+    height: 300px;
+}
+
+.contenedor-2-h2 a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
+    padding-left: 3px;
+    padding-right: 3px;
+    
+
+}
+
+.contenedor-2-h2 a:hover {
+
+    background-color: rgb(215, 215, 215);
+    
+    border-radius: 5px;
+    
+    
+
+}
+
+.titulo-contenedor-2{
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTENEDOR-3-********** */
+
+.titulo-cont3{
+
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+
+
+/* .imagen-3{
+    width: 720px;
+    height: 310px;
+
+} */
+
+.contenedor-3 h6{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.custom-carousel {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+}
+
+.carousel-item {
+    min-width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.carousel-control-prev {
+    left: 10px;
+}
+
+.carousel-control-next {
+    right: 10px;
+}
+
+
+
+
+
+
+/* CONTENEDOR-4-********** */
+
+.foto-4-cont{
+    width: 340px;
+    height: 170px;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.foto-4-cont img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+
+  .contenedor-4 h2{
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+/* CONTENEDOR-5-********** */
+
+/* .contenedor-5{
+    background-color: black;
+    color: white;
+} */
+
+
+
+.imagen-5{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor-5-2{
+    background-color: white;
+    color: black;
+}
+
+.contenedor-5 h4{
+    font-weight: 300;
+}
+
+
+
+
+
+/* FOOTER************** */
+
+
+
+.footer1{
+    background-color: black;
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    text-decoration: none;
+    
+}
+
+
+.sin-puntos{
+    list-style-type: none;
+
+}
+
+
+/*contenedor fondo background 4-5*/
+
+.fondocontainer {
+    position: relative; 
+    z-index: 1; 
+}
+
+.fondocontainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)),
+    url('../img/posible-fondo-5.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    opacity: 1.0; 
+    z-index: -1; 
+}
+
+
+/*CONTENEDOR-6******************* */
+
+.contenedor-6 {
+    font-size: 80px;
+    color: rgb(84, 94, 99);
+    font-weight: 800;
+    font-family: "Red Hat Display", sans-serif;
+
+
+}
+
+.contenedor-6-1{
+    font-family: "Red Hat Display", sans-serif;
+    color: white;
+
+}
+
+
+/*CONTENEDOR-7****************************** */
+
+.contenedor-7{
+    background-color: black;
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    border-bottom: 0.3px solid rgb(84, 94, 99);;
+
+}
+
+.contenedor-7 h2{
+    font-size: 50px;
+}
+
+.contenedor-7 .btn-primary{
+    background-color: white;
+    color: black;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.contenedor-7 .btn-primary:hover{
+    border: none;
+    transform: scale(1.1);
+    font-weight: 500;
+}
+
+.titulo-offcanvas{
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 25px;
+    font-weight: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* BANNER EXPERIMENTAL************** */
+
+
+
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    color: rgb(84, 94, 99);
+    position: relative;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    font-family: "Red Hat Display", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.marquee-content {
+    white-space: nowrap;
+    display: inline-block;
+    animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*++++++++++++++++-CSS PARA JAVACRIPT-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+
+/*INDEX-CONTENEDOR-1*/
+.elevar-contenedor {
+    transition: transform 0.3s ease;
+}
+
+.elevar-contenedor.elevated {
+    transform: translateY(-10px);
+}
+
+/*INDEX-CONTENEDOR-4*/
+.zoom-contenedor {
+    transition: transform 0.3s ease;
+}
+
+.zoom-contenedor.zoomin {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+

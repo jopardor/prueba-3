@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "nombre": "Juan Perez",
+      "email": "j.perez@duoc.cl",
+      "edad": "51",
+      "avatar": "https://randomuser.me/api/portraits/lego/1.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Andrea Gonzales",
+      "email": "a.gonzales@duoc.cl",
+      "edad": "38",
+      "avatar": "https://randomuser.me/api/portraits/lego/2.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Nicolas Tapia",
+      "email": "n.tapia@duoc.cl",
+      "edad": "27",
+      "avatar": "https://randomuser.me/api/portraits/lego/3.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Francisco Rodríguez",
+      "email": "f.rodriguez@duoc.cl",
+      "edad": "47",
+      "avatar": "https://randomuser.me/api/portraits/lego/4.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Carmen Almeida",
+      "email": "c.almeida@duoc.cl",
+      "edad": "41",
+      "avatar": "https://randomuser.me/api/portraits/lego/5.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Cristina Urrutia",
+      "email": "c.urruitia@duoc.cl",
+      "edad": "39",
+      "avatar": "https://randomuser.me/api/portraits/lego/6.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Camila Olivos",
+      "email": "c.olivos@duoc.cl",
+      "edad": "54",
+      "avatar": "https://randomuser.me/api/portraits/lego/7.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Ricardo Flores",
+      "email": "r.flores@duoc.cl",
+      "edad": "32",
+      "avatar": "https://randomuser.me/api/portraits/lego/8.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Mercedes Parra",
+      "email": "m.parra@duoc.cl",
+      "edad": "41",
+      "avatar": "https://randomuser.me/api/portraits/lego/9.jpg"
+    }
+  ]
